@@ -1,0 +1,158 @@
+@media screen and (max-width: 1600px) {
+
+  header {
+    flex-direction: row;
+}
+
+
+  #profile img {
+
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto 0;
+    
+  }
+
+  .section__text {
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+.section__text__p1 {
+
+    flex-direction: column;
+    text-align: auto;
+}
+
+.title {
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.profile-links{
+    padding: 0;
+    flex-direction: column;
+    margin-top: rem;
+    
+
+}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #menu-icon {
+        background-size: contain;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        margin-top: 3rem;
+        width: 100%;
+        background-color: #f1c6de;
+    }
+
+    nav.show ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1000px) { 
+
+
+  #profile {
+    display: block;
+  }
+
+  #menu-icon {
+    background-size: contain;
+
+}
+
+nav ul {
+    flex-direction: column;
+    position: flex;
+    margin-top: 3rem;
+    text-align:center; 
+    background-color: #f1c6de;
+    padding-top: 20px ;
+    
+}
+
+  section {
+    height: fit-content; 
+  }
+  section {
+    margin: 0 5%;
+  }
+ 
+  #profile img {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+
+  }
+
+  .title{
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column;
+  }
+  .profile-links{
+    padding: 0;
+    flex-direction: row;
+    margin-top: 0rem;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+    #profile img {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+
+    }
+    
+    .section__text {
+        flex-direction: column;
+        font-size: 1.25rem;
+    }
+    
+    .section__text__p1 {
+    
+        flex-direction: column;
+        text-align: auto;
+    }
+    
+    .title {
+        flex-direction: column;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .profile-links{
+        padding: 0;
+        flex-direction: row;
+        margin-top: 0rem;
+        
+    
+    }
+}
