@@ -48,15 +48,15 @@
     }
 
     nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        margin-top: 3rem;
-        width: 100%;
-        background-color: #f1c6de;
-    }
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0; /* Adjusted from 'right: 0;' to 'left: 0;' */
+      margin-top: 3rem;
+      width: 100%;
+      background-color: #f1c6de;
+  }
 
     nav.show ul {
         display: flex;
@@ -73,6 +73,9 @@
 
 @media screen and (max-width: 1000px) { 
 
+  .skill-category {
+    flex-basis: calc(50% - 20px); /* Adjust the width for smaller screens */
+}
 
   #profile {
     display: block;
@@ -121,6 +124,10 @@ nav ul {
 }
 
 @media screen and (max-width: 600px) {
+
+  .skill-category {
+    flex-basis: calc(100% - 20px); /* Adjust the width for even smaller screens */
+}
 
 
 
