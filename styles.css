@@ -249,7 +249,7 @@ button:hover {
 
 
 /* skill section */
-.skill_text , .about_title    {
+.skill_text , .about_title ,.projects_title   {
     
     text-align: center;
     font-size: 32px;
