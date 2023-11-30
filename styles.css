@@ -170,10 +170,20 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f4e3ec; 
+    background-color: #f8f8f8; 
 }
 
 /* About me */
+
+.info-box-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eab0d9; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    padding: 20px; 
+    margin: 20px;
+}
 
 .info-box {
     display: flex;
@@ -199,17 +209,54 @@ footer {
     color: #666; 
 }
 
+/* button */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    height: 10vh; 
+}
+
+button {
+    background-color: #444141;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    margin: 5px;
+}
+
+button:hover {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+}
+
+@keyframes slidernbw {
+    to {
+        background-position: 20vw;
+    }
+}
+
+
 
 
 
 
 
 /* skill section */
-.skill_text , .about_title   {
+.skill_text , .about_title    {
+    
     text-align: center;
     font-size: 32px;
     font-weight: bold;
     display: list-item;
+    list-style: none;
+    background-color: #eab0d9;
 }
 
 .skill-title{
@@ -235,7 +282,7 @@ footer {
 .rounded-border-section h3.skill-text {
     font-size: 18px;
     margin: 10px 0;
-    color: #f8f8f8;
+    color: #333;
 }
 
 .skill_1,
