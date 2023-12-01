@@ -309,6 +309,7 @@ button:hover {
     overflow: hidden;
     border-radius: 8px;
     transition: transform 0.3s;
+    height: max-content;
 }
 
 .project-card:hover {
